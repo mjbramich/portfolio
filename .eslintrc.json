@@ -17,7 +17,10 @@
 			"parserOptions": {
 				"project": "./tsconfig.json"
 			},
-			"parser": "@typescript-eslint/parser"
+			"parser": "@typescript-eslint/parser",
+			"rules": {
+				"react/function-component-definition": "off" // Disable Airbnb's specific function type
+			}
 		}
 	]
 }
