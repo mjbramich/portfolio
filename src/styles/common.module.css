@@ -1,3 +1,14 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+}
+
+.content,
+.blog {
+	width: var(--wrapper);
+}
+
 /* ----- NAVBAR ----- */
 
 .nav {
