@@ -19,6 +19,11 @@
 	margin-bottom: 30px;
 }
 
+.info h2 {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
 .headshot {
 	border: 5px solid #121212;
 	outline: 1px solid rgba(255, 255, 255, 0.1);
@@ -44,7 +49,7 @@
 	margin-top: 75px;
 }
 
-.gallery > a {
+.gallery > img {
 	border-radius: 20px;
 	overflow: hidden;
 	width: 265px;
@@ -53,7 +58,7 @@
 	transform: rotateZ(-3deg);
 }
 
-.gallery > a:nth-child(even) {
+.gallery > img:nth-child(even) {
 	transform: rotateZ(3deg);
 }
 
@@ -135,7 +140,7 @@
 		overflow: hidden;
 	}
 
-	.gallery > a {
+	.gallery > img {
 		margin: 0 !important;
 		display: inline-block;
 		transform: none !important;
@@ -156,6 +161,10 @@
 
 @media (max-width: 767px) {
 	.info h1 {
+		font-size: 20px;
+	}
+
+	.info h2 {
 		font-size: 16px;
 	}
 
