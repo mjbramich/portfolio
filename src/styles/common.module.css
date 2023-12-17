@@ -80,3 +80,58 @@
 .link:hover {
 	color: var(--gray2);
 }
+
+/* ----- FOOTER ----- */
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 250px;
+}
+
+.hr {
+	width: 100%;
+	border: 1px solid var(--gray8);
+}
+
+.date {
+	font-size: 14px;
+	color: var(--gray4);
+}
+
+.location {
+	text-decoration: none;
+}
+
+.location:hover {
+	color: white;
+}
+
+.separator {
+	margin: 0px 5px;
+}
+
+.container {
+	width: var(--wrapper);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0px;
+}
+
+@media (max-width: 424px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+}
+@media (max-width: 768px) {
+	.footer p {
+		font-size: 12px;
+	}
+}
