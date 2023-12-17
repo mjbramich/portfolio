@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi/index';
+import { FiGithub, FiLinkedin, FiTwitter, FiFileText } from 'react-icons/fi/index';
 import { RxDiscordLogo } from 'react-icons/rx';
 import styles from '@css/home.module.css';
 
@@ -25,6 +25,11 @@ const Socials: FC = () => (
 				aria: 'Discord',
 				icon: RxDiscordLogo,
 				href: 'https://discord.com/users/759379629148078121'
+			},
+			{
+				aria: 'Resume',
+				icon: FiFileText,
+				href: 'https://drive.google.com/file/d/13p6X4aarSjfnb19103-HGqCW3WPxS5dV/view?usp=drive_link'
 			}
 		].map((link) => (
 			<a
