@@ -7,6 +7,7 @@ import useWindowSize, { Size } from '@lib/hooks/useWindowSize';
 import Socials from './Socials';
 import Photos from './Photos';
 import Gallery from './Gallery';
+import Card from '../Card';
 
 const Home: FC = () => {
 	const size: Size = useWindowSize();
@@ -51,6 +52,13 @@ const Home: FC = () => {
 						.
 					</p>
 					<Socials />
+
+					<Card
+						project='Photos'
+						desc='View some of my photos.'
+						img='/photos/@mjbramich/selfie.jpg'
+						link='link1'
+					/>
 				</div>
 			</div>
 			{typeof size.width !== 'undefined' && size.width < 800 && <Gallery />}
