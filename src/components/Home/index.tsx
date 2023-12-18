@@ -7,7 +7,7 @@ import useWindowSize, { Size } from '@lib/hooks/useWindowSize';
 import Socials from './Socials';
 import Photos from './Photos';
 import Gallery from './Gallery';
-import Card from '../Card';
+import Card from '../Projects/Card';
 
 const Home: FC = () => {
 	const size: Size = useWindowSize();
@@ -54,10 +54,10 @@ const Home: FC = () => {
 					<Socials />
 
 					<Card
-						project='Photos'
-						desc='View some of my photos.'
+						title='Photos'
+						desc='View some of my photos. View some of my photos. View some of my photos.'
 						img='/photos/@mjbramich/selfie.jpg'
-						link='link1'
+						links={['hello', 'you']}
 					/>
 				</div>
 			</div>
