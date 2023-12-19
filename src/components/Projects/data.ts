@@ -1,5 +1,18 @@
 import { Projects } from './Card';
 
+type Content = {
+	title: string;
+	content: string;
+};
+
+const skills: Content[] = [
+	{
+		title: 'Skills',
+		content:
+			"I primarily work with React and Next.js ecosystem, and I've worked extensively with several tools such as TypeScript, Jest/Enzyme, Redux, Storybook, Chakra, Tailwind/SCSS, PostgreSQL, CircleCI, and much more. The web is an endless medium of opportunities, and I have yet to scratch the surface."
+	}
+];
+
 const projects: Projects[] = [
 	{
 		title: "Kanga's Exterior Solutions",
@@ -27,4 +40,4 @@ const projects: Projects[] = [
 	}
 ];
 
-export default projects;
+export { projects, skills };

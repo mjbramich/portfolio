@@ -11,20 +11,6 @@
 	width: var(--wrapper);
 }
 
-.image:first-of-type {
-	transform: rotateZ(-3deg);
-	z-index: 1;
-}
-
-.image:last-of-type {
-	transform: rotateZ(3deg);
-}
-
-.image {
-	border-radius: 20px;
-	overflow: hidden;
-}
-
 .section {
 	display: flex;
 	margin-top: 75px;
@@ -365,6 +351,12 @@
 	}
 }
 
+/* CARDLIST */
+
+.list > div {
+	margin-bottom: 1rem;
+}
+
 /* CARD */
 
 .container {
@@ -374,7 +366,6 @@
 	padding-right: 0.75rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	justify-content: space-between;
 	align-items: center;
 	border-radius: 1rem;
 	border: 2px solid var(--gray8);

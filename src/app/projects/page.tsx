@@ -1,13 +1,10 @@
 import { Layout } from '@components/Layout';
-import projects from '@/components/Projects/data';
-import Card from '@/components/Projects/Card';
 import type { NextPage } from 'next';
+import About from '@/components/Projects';
 
 const Page: NextPage = () => (
 	<Layout>
-		{projects.map((project) => (
-			<Card key={project.title} {...project} />
-		))}
+		<About />
 	</Layout>
 );
 
