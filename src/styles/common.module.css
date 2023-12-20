@@ -6,6 +6,7 @@
 
 .content,
 .blog {
+	/* margin: 0 auto; */
 	width: var(--wrapper);
 }
 
@@ -131,7 +132,7 @@
 		gap: 6px;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.footer p {
 		font-size: 12px;
 	}

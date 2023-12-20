@@ -13,8 +13,9 @@
 
 .section {
 	display: flex;
+	justify-content: space-between;
 	margin-top: 75px;
-	width: 750px;
+	width: 700px;
 }
 
 .title {
@@ -310,13 +311,13 @@
 	}
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
 	.section h1,
 	.section h2,
 	.section p {
 		font-size: 14px !important;
 	}
-}
+} */
 
 @media (max-width: 767px) {
 	.image:first-of-type {
@@ -329,7 +330,7 @@
 
 	.section {
 		flex-direction: column;
-		width: 90%;
+		width: 100%;
 	}
 
 	.section > h1,
@@ -354,21 +355,18 @@
 /* CARDLIST */
 
 .list > div {
-	margin-bottom: 1rem;
+	margin-bottom: 4rem;
 }
 
 /* CARD */
 
 .container {
 	display: flex;
+	flex-direction: column;
 	gap: 1rem;
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	align-items: center;
+	align-items: stretch;
+	justify-content: center;
 	border-radius: 1rem;
-	border: 2px solid var(--gray8);
 	width: 100%;
 }
 
@@ -378,14 +376,15 @@
 }
 
 .img {
-	border-radius: 9999px;
-	width: min-content;
+	border-radius: 1rem;
+	max-width: 100%;
+	object-fit: cover;
+	overflow: hidden;
 }
 
 .heading {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .heading > h3 {
@@ -414,5 +413,9 @@
 
 	.info p {
 		font-size: 14px;
+	}
+
+	.section {
+		padding: 0 1rem;
 	}
 }

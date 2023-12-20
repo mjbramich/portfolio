@@ -5,6 +5,13 @@ type Content = {
 	content: string;
 };
 
+// const about: Content[] = [
+// 	{
+// 		title: 'About',
+// 		content: 'hello'
+// 	}
+// ];
+
 const skills: Content[] = [
 	{
 		title: 'Skills',
@@ -17,26 +24,38 @@ const projects: Projects[] = [
 	{
 		title: "Kanga's Exterior Solutions",
 		img: '/photos/@mjbramich/selfie.jpg',
-		desc: 'A site for a local property maintenance business to showcase their work',
-		links: ['https://kangas.au', 'https://github.com/mjbramich/kangas']
+		desc: 'A site for a local property maintenance business to showcase their work and do some other stufs',
+		links: {
+			source: 'https://kangas.au',
+			github: 'https://github.com/mjbramich/kangas'
+		}
 	},
 	{
 		title: "Kanga's Exterior Solutions",
 		img: '/photos/@mjbramich/selfie.jpg',
 		desc: 'A site for a local property maintenance business to showcase their work',
-		links: ['https://kangas.au', 'https://github.com/mjbramich/kangas']
+		links: {
+			source: 'https://kangas.au',
+			github: 'https://github.com/mjbramich/kangas'
+		}
 	},
 	{
 		title: "Kanga's Exterior Solutions",
 		img: '/photos/@mjbramich/selfie.jpg',
 		desc: 'A site for a local property maintenance business to showcase their work',
-		links: ['https://kangas.au', 'https://github.com/mjbramich/kangas']
+		links: {
+			source: 'https://kangas.au',
+			github: 'https://github.com/mjbramich/kangas'
+		}
 	},
 	{
-		title: "Kanga's Exterior Solutions",
-		img: '/photos/@mjbramich/selfie.jpg',
+		title: "Kanga's ",
+		img: '/photos/projects/kangasmockup.png',
 		desc: 'A site for a local property maintenance business to showcase their work',
-		links: ['https://kangas.au', 'https://github.com/mjbramich/kangas']
+		links: {
+			source: 'https://kangas.au',
+			github: 'https://github.com/mjbramich/kangas'
+		}
 	}
 ];
 

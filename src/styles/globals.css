@@ -14,7 +14,7 @@
 
 	--focus-color: var(--gray7);
 
-	--wrapper: 950px;
+	--wrapper: 900px;
 	--about-padding: 50px;
 
 	--font-fallback: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
@@ -149,18 +149,18 @@ body {
 @media (max-width: 1024px) {
 	:root {
 		--wrapper: 700px;
-		--about-padding: 25px;
+		/* --about-padding: 1rem; */
 	}
 }
 
 @media (max-width: 767px) {
 	:root {
-		--wrapper: 420px;
+		--wrapper: 460px;
 		--about-padding: 0px;
 	}
 }
 
-@media (max-width: 424px) {
+@media (max-width: 464px) {
 	:root {
 		--wrapper: 97vw;
 	}
