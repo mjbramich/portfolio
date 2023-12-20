@@ -12,13 +12,11 @@ type Content = {
 // 	}
 // ];
 
-const skills: Content[] = [
-	{
-		title: 'Skills',
-		content:
-			"I primarily work with React and Next.js ecosystem, and I've worked extensively with several tools such as TypeScript, Jest/Enzyme, Redux, Storybook, Chakra, Tailwind/SCSS, PostgreSQL, CircleCI, and much more. The web is an endless medium of opportunities, and I have yet to scratch the surface."
-	}
-];
+const skills: Content = {
+	title: 'Skills',
+	content:
+		'Crafting seamless digital experiences with expertise in React and Next.js on the frontend and Node on the backend. Proficient in TypeScript, Redux, Tailwind/SCSS, SQL, and MongoDB. I ensure quality through comprehensive testing with tools like Jest and Cypress.'
+};
 
 const projects: Projects[] = [
 	{

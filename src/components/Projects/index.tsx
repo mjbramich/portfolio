@@ -3,19 +3,18 @@
 import styles from '@css/work.module.css';
 import Section from './Section';
 import CardList from './CardList';
+import { skills } from './data';
 
 const About = () => (
 	<div className={styles.box}>
-		<h1>My work</h1>
-
-		<Section title='About' extend={{ title: 'See More', href: '/about' }}>
+		{/* <Section title='About' extend={{ title: 'See More', href: '/about' }}>
 			{' '}
-		</Section>
-		<Section title='Skills' extend={{ title: 'See More', href: '/skills' }}>
-			<p>This is a overview of my skills</p>
+		</Section> */}
+		<Section title={skills.title} extend={{ title: 'View resume', href: '/skills' }}>
+			<p>{skills.content}</p>
 		</Section>
 
-		<Section title='Recent Work' extend={{ title: 'See More', href: '/projects' }}>
+		<Section title='Recent Work' extend={{ title: 'All works', href: '/projects' }}>
 			<CardList />
 		</Section>
 	</div>
