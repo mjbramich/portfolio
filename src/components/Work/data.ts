@@ -22,8 +22,8 @@ const projects: Projects[] = [
 	{
 		title: "Kanga's Exterior Solutions",
 		imgSrc: {
-			sml: '/photos/projects/test1.png',
-			lrg: '/photos/projects/kangasmockup.png'
+			sml: '/photos/projects/kangasSmallMockup.png',
+			lrg: '/photos/projects/kangasMockup.png'
 		},
 		desc: 'A site for a local property maintenance business to showcase their work and do some other stufs',
 		links: {
@@ -32,22 +32,22 @@ const projects: Projects[] = [
 		}
 	},
 	{
-		title: "Kanga's Exterior Solutions",
+		title: 'Playmaker Vintage (Coming Soon)',
 		imgSrc: {
-			sml: '/photos/projects/test1.png',
-			lrg: '/photos/projects/kangasmockup.png'
+			sml: '/photos/projects/playmakerVintage.png',
+			lrg: '/photos/projects/playmakerVintage.png'
 		},
-		desc: 'A site for a local property maintenance business to showcase their work',
+		desc: 'A ecommerce allowing the owner to showcase their collection of vintage clothes',
 		links: {
 			source: 'https://kangas.au',
 			github: 'https://github.com/mjbramich/kangas'
 		}
 	},
 	{
-		title: "Kanga's Exterior Solutions",
+		title: 'Kandoo',
 		imgSrc: {
-			sml: '/photos/projects/test1.png',
-			lrg: '/photos/projects/kangasmockup.png'
+			sml: '/photos/projects/kandooSmallMockup.png',
+			lrg: '/photos/projects/kandooMockup.png'
 		},
 		desc: 'A site for a local property maintenance business to showcase their work',
 		links: {
@@ -58,7 +58,7 @@ const projects: Projects[] = [
 	{
 		title: "Kanga's ",
 		imgSrc: {
-			sml: '/photos/projects/test1.png',
+			sml: '/photos/projects/kangasSmallMockup.png',
 			lrg: '/photos/projects/kangasmockup.png'
 		},
 		desc: 'A site for a local property maintenance business to showcase their work',
