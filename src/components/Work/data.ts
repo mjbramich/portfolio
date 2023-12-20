@@ -21,7 +21,10 @@ const skills: Content = {
 const projects: Projects[] = [
 	{
 		title: "Kanga's Exterior Solutions",
-		img: '/photos/@mjbramich/selfie.jpg',
+		imgSrc: {
+			sml: '/photos/projects/test1.png',
+			lrg: '/photos/projects/kangasmockup.png'
+		},
 		desc: 'A site for a local property maintenance business to showcase their work and do some other stufs',
 		links: {
 			source: 'https://kangas.au',
@@ -30,7 +33,10 @@ const projects: Projects[] = [
 	},
 	{
 		title: "Kanga's Exterior Solutions",
-		img: '/photos/@mjbramich/selfie.jpg',
+		imgSrc: {
+			sml: '/photos/projects/test1.png',
+			lrg: '/photos/projects/kangasmockup.png'
+		},
 		desc: 'A site for a local property maintenance business to showcase their work',
 		links: {
 			source: 'https://kangas.au',
@@ -39,7 +45,10 @@ const projects: Projects[] = [
 	},
 	{
 		title: "Kanga's Exterior Solutions",
-		img: '/photos/@mjbramich/selfie.jpg',
+		imgSrc: {
+			sml: '/photos/projects/test1.png',
+			lrg: '/photos/projects/kangasmockup.png'
+		},
 		desc: 'A site for a local property maintenance business to showcase their work',
 		links: {
 			source: 'https://kangas.au',
@@ -48,7 +57,10 @@ const projects: Projects[] = [
 	},
 	{
 		title: "Kanga's ",
-		img: '/photos/projects/kangasmockup.png',
+		imgSrc: {
+			sml: '/photos/projects/test1.png',
+			lrg: '/photos/projects/kangasmockup.png'
+		},
 		desc: 'A site for a local property maintenance business to showcase their work',
 		links: {
 			source: 'https://kangas.au',

@@ -10,11 +10,14 @@ type Link = {
 export type Projects = {
 	title: string;
 	desc: string;
-	img: string;
+	imgSrc: {
+		sml: string;
+		lrg: string;
+	};
 	links: Link;
 };
 
-const Card = ({ title, desc, img, links }: Projects) => (
+const Card = ({ title, desc, imgSrc, links }: Projects) => (
 	<div className={styles.container}>
 		<div className={styles.info}>
 			<div className={styles.heading}>
@@ -31,8 +34,8 @@ const Card = ({ title, desc, img, links }: Projects) => (
 			<p>{desc}</p>
 		</div>
 		<picture>
-			<source srcSet='/photos/projects/test1.png' media='(max-width: 767px)' />
-			<Image src={img} alt={title} className={styles.img} width={562} height={300} />
+			<source srcSet={imgSrc.sml} media='(max-width: 767px)' />
+			<Image src={imgSrc.lrg} alt={title} className={styles.img} width={562} height={300} />
 		</picture>
 	</div>
 );
