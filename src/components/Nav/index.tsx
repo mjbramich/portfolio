@@ -16,8 +16,8 @@ type Item = {
 
 const items: Items = {
 	'/': { name: 'Home', x: 0, w: '77.95px' },
-	'/projects': { name: 'Projects', x: 77.95, w: '93.78px' },
-	'/blog': { name: 'Blog', x: 171.73, w: '69.31px' }
+	'/work': { name: 'Work', x: 77.95, w: '73.75px' },
+	'/blog': { name: 'Blog', x: 151.7, w: '69.31px' }
 };
 
 const Nav: FC = () => {
