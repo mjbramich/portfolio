@@ -15,7 +15,7 @@ type Content = {
 const skills: Content = {
 	title: 'Skills',
 	content:
-		'Crafting seamless digital experiences with expertise in React and Next.js on the frontend and Node on the backend. Proficient in TypeScript, Redux, Tailwind/SCSS, SQL, and MongoDB. I ensure quality through comprehensive testing with tools like Jest and Cypress.'
+		'Crafting seamless digital experiences with expertise in React and Next.js on the frontend and Node on the backend. Proficient in TypeScript, Redux, Tailwind/SCSS, SQL, and MongoDB. I ensure quality through comprehensive testing with tools like Jest and Cypress. '
 };
 
 const projects: Projects[] = [
@@ -59,7 +59,7 @@ const projects: Projects[] = [
 		title: "Kanga's ",
 		imgSrc: {
 			sml: '/photos/projects/kangasSmallMockup.png',
-			lrg: '/photos/projects/kangasmockup.png'
+			lrg: '/photos/projects/kangasMockup.png'
 		},
 		desc: 'A site for a local property maintenance business to showcase their work',
 		links: {

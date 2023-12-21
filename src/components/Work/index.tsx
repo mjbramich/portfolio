@@ -10,6 +10,11 @@ const About = () => (
 		{/* <Section title='About' extend={{ title: 'See More', href: '/about' }}>
 			{' '}
 		</Section> */}
+		<h1 className={styles.intro}>
+			I craft solutions that solve problems through design and development, and I love what I do —
+			constantly exploring new avenues for learning and growth.
+		</h1>
+
 		<Section title={skills.title} extend={{ title: 'View resume', href: '/skills' }}>
 			<p>{skills.content}</p>
 		</Section>
