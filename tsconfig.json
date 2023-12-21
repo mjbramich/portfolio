@@ -22,7 +22,8 @@
 			"@/*": ["./src/*"],
 			"@components/*": ["./src/components/*"],
 			"@css/*": ["./src/styles/*"],
-			"@lib/*": ["./src/lib/*"]
+			"@lib/*": ["./src/lib/*"],
+			"contentlayer/generated": ["./.contentlayer/generated"]
 		}
 	},
 	"include": [
@@ -31,7 +32,8 @@
 		"**/*.tsx",
 		".next/types/**/*.ts",
 		"**/**/*.ts",
-		"**/**/*.tsx"
+		"**/**/*.tsx",
+		".contentlayer/generated"
 	],
 	"exclude": ["node_modules"]
 }
