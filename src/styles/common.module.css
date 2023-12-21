@@ -10,6 +10,19 @@
 	width: var(--wrapper);
 }
 
+.blog {
+	display: flex;
+}
+
+.blog h1 {
+	font-size: 24px;
+}
+
+.content p > a,
+.blog p > a {
+	color: var(--gray0);
+}
+
 /* ----- NAVBAR ----- */
 
 .nav {
