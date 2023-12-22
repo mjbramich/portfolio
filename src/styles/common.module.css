@@ -12,6 +12,7 @@
 
 .blog {
 	display: flex;
+	justify-content: center;
 }
 
 .blog h1 {
