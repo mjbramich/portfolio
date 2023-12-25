@@ -1,6 +1,6 @@
 .box {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	position: relative;
 }
 
@@ -309,10 +309,10 @@
 		align-items: center;
 	}
 
-	.section {
-		width: 90%;
+	.section,
+	.footer {
 		border: none;
-		padding-right: 0px;
+		padding: 0px 1rem;
 	}
 
 	.title {

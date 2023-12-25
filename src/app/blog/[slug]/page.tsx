@@ -10,7 +10,10 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
 	// Posts from contentlayer
 	const post = allPosts.find((p) => p.slug.substring(6) === params.slug);
 	if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
-	return { title: post.title };
+
+	const { title, description } = post;
+
+	return { title, description };
 };
 
 const PostLayout = ({ params }: { params: { slug: string } }) => {
