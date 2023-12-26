@@ -6,6 +6,7 @@ import styles from '@css/slug.module.css';
 import { Post } from 'contentlayer/generated';
 import { FiLink } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
+import { format } from 'date-fns';
 
 const Copy: FC<{ slug: string }> = ({ slug }) => {
 	const [visible, setVisible] = useState(false);
@@ -51,7 +52,7 @@ const Header = ({ title, published, slug }: Post) => (
 	<header className={styles.header}>
 		<div>
 			<h1 className={styles.title}>{title}</h1>
-			<p>{published}</p>
+			<p>{format(new Date(published), 'dd/MM/yyyy')}</p>
 		</div>
 		<Copy slug={slug} />
 	</header>

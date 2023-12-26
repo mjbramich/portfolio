@@ -4,13 +4,14 @@
 import styles from '@css/blog.module.css';
 import { allPosts, Post } from 'contentlayer/generated';
 import Link from 'next/link';
+import { format } from 'date-fns';
 
 allPosts.sort((a, b) => (a.published < b.published ? 1 : -1));
 
 const PostComponent = ({ slug, title, published }: Post) => (
 	<Link className={styles.post} href={slug}>
 		<h2>{title}</h2>
-		<p>{published}</p>
+		<p>{format(new Date(published), 'dd/MM/yy')}</p>
 	</Link>
 );
 
