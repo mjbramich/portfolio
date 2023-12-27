@@ -21,11 +21,13 @@ export const Post = defineDocumentType(() => ({
 		}
 	}
 }));
-
+const options = {
+	theme: 'monokai'
+};
 export default makeSource({
 	contentDirPath: 'content/posts',
 	documentTypes: [Post],
 	mdx: {
-		rehypePlugins: [rehypePrettyCode]
+		rehypePlugins: [[rehypePrettyCode, options]]
 	}
 });

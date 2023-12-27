@@ -37,3 +37,13 @@ function hello() {
 	console.log('hello');
 }
 ```
+
+```jsx
+const CardList = () => (
+	<div className={styles.list}>
+		{projects.map((project) => (
+			<Card key={project.title} {...project} />
+		))}
+	</div>
+);
+```
