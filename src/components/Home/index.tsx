@@ -15,10 +15,12 @@ const Home: FC = () => {
 		<div className={styles.wrapper}>
 			<div className={styles.home_container}>
 				<div className={styles.info}>
-					<div className={styles.headshot}>
-						<Image src='/photos/@mjbramich/1.jpg' alt='My face' fill />
+					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+						<h1>Matthew Bramich — Fullstack Developer </h1>
+						<div className={styles.headshot}>
+							<Image src='/photos/@mjbramich/selfie.jpg' alt='My face' fill />
+						</div>
 					</div>
-					<h1>Matthew Bramich — Fullstack Developer </h1>
 					<h2>Interested in working with positive people on ambitious projects</h2>
 					<p>
 						I enjoy creating beautiful interfaces, building tools and crafting polished user

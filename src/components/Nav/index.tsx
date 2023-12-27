@@ -34,10 +34,10 @@ const Nav: FC = () => {
 						{name}
 						{items[pathname].name === name && (
 							<motion.div
+								layout
 								className={styles.bar}
-								layoutId='bar'
 								aria-hidden
-								transition={{ type: 'spring', stiffness: 700, damping: 30 }}
+								// transition={{ type: 'spring', stiffness: 100, damping: 30 }}
 								style={{ width: w }}
 							/>
 						)}
