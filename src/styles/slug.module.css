@@ -35,6 +35,22 @@
 	background: var(--gray7);
 }
 
+.info {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.info span {
+	font-size: 24px;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
 .button_wrapper {
 	display: flex;
 	justify-content: center;

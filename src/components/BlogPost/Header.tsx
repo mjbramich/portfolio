@@ -4,7 +4,7 @@ import { FC, useEffect, useState } from 'react';
 import styles from '@css/slug.module.css';
 // import { format } from 'date-fns';
 import { Post } from 'contentlayer/generated';
-import { FiLink } from 'react-icons/fi';
+import { FiLink, FiBookOpen } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
 import { format } from 'date-fns';
 
@@ -48,11 +48,19 @@ const Copy: FC<{ slug: string }> = ({ slug }) => {
 	);
 };
 
-const Header = ({ title, published, slug }: Post) => (
+const Header = ({ title, published, slug, readingTime }: Post) => (
 	<header className={styles.header}>
 		<div>
 			<h1 className={styles.title}>{title}</h1>
-			<p>{format(new Date(published), 'dd/MM/yyyy')}</p>
+			<div className={styles.info}>
+				<p>{format(new Date(published), 'dd/MM/yyyy')}</p>
+
+				<span>·</span>
+				<div className={styles.time}>
+					<FiBookOpen />
+					<p>{readingTime.text}</p>
+				</div>
+			</div>
 		</div>
 		<Copy slug={slug} />
 	</header>
