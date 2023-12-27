@@ -28,10 +28,10 @@ const Photos: FC = () => (
 	<div className={styles.gallery}>
 		{images.map((image, index) => (
 			<Image
-				src={`/photos/@mjbramich/${index + 1}.jpg`}
+				src={`/photos/@mjbramich/${7}.PNG`}
 				key={index}
-				width={265}
-				height={325}
+				width={1266}
+				height={2400}
 				alt={image.alt}
 				draggable={false}
 				priority
