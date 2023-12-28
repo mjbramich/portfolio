@@ -15,9 +15,10 @@ export type Projects = {
 		lrg: string;
 	};
 	links: Link;
+	color: string;
 };
 
-const Card = ({ title, desc, imgSrc, links }: Projects) => (
+const Card = ({ title, desc, imgSrc, links, color }: Projects) => (
 	<div className={styles.container}>
 		<div className={styles.info}>
 			<div className={styles.heading}>
@@ -35,7 +36,15 @@ const Card = ({ title, desc, imgSrc, links }: Projects) => (
 		</div>
 		<picture>
 			<source srcSet={imgSrc.sml} media='(max-width: 767px)' />
-			<Image src={imgSrc.lrg} alt={title} className={styles.img} width={562} height={300} />
+			<Image
+				src={imgSrc.lrg}
+				alt={title}
+				className={styles.img}
+				width={562}
+				height={300}
+				blurDataURL={color}
+				placeholder='blur'
+			/>
 		</picture>
 	</div>
 );

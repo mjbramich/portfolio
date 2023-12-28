@@ -1,3 +1,5 @@
+import blurDataURL from '@lib/blurDataUrl';
+
 import { Projects } from './Card';
 
 type Content = {
@@ -29,7 +31,8 @@ const projects: Projects[] = [
 		links: {
 			source: 'https://kangas.au',
 			github: 'https://github.com/mjbramich/kangas'
-		}
+		},
+		color: blurDataURL(131, 140, 155)
 	},
 	{
 		title: 'Playmaker Vintage (Coming Soon)',
@@ -41,7 +44,8 @@ const projects: Projects[] = [
 		links: {
 			source: 'https://kangas.au',
 			github: 'https://github.com/mjbramich/kangas'
-		}
+		},
+		color: blurDataURL(154, 207, 229)
 	},
 	{
 		title: 'Kandoo',
@@ -53,7 +57,8 @@ const projects: Projects[] = [
 		links: {
 			source: 'https://kangas.au',
 			github: 'https://github.com/mjbramich/kangas'
-		}
+		},
+		color: blurDataURL(18, 112, 159)
 	},
 	{
 		title: "Kanga's ",
@@ -65,7 +70,8 @@ const projects: Projects[] = [
 		links: {
 			source: 'https://kangas.au',
 			github: 'https://github.com/mjbramich/kangas'
-		}
+		},
+		color: blurDataURL(18, 112, 159)
 	}
 ];
 
