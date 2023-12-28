@@ -2,7 +2,6 @@
 
 import { FC } from 'react';
 import styles from '@css/home.module.css';
-import Image from 'next/image';
 import useWindowSize, { Size } from '@lib/hooks/useWindowSize';
 import Socials from './Socials';
 import Photos from './Photos';
@@ -15,12 +14,10 @@ const Home: FC = () => {
 		<div className={styles.wrapper}>
 			<div className={styles.home_container}>
 				<div className={styles.info}>
-					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-						<h1>Matthew Bramich — Fullstack Developer </h1>
-						<div className={styles.headshot}>
+					<h1>Matthew Bramich — Fullstack Developer </h1>
+					{/* <div className={styles.headshot}>
 							<Image src='/photos/@mjbramich/selfie.jpg' alt='My face' fill />
-						</div>
-					</div>
+						</div> */}
 					<h2>Interested in working with positive people on ambitious projects</h2>
 					<p>
 						I enjoy creating beautiful interfaces, building tools and crafting polished user
