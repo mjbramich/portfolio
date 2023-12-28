@@ -28,7 +28,7 @@ const Photos: FC = () => (
 	<div className={styles.gallery}>
 		{images.map((image, index) => (
 			<Image
-				src={`/photos/@mjbramich/${7}.PNG`}
+				src={`/photos/@mjbramich/${1 + index}.jpg`}
 				key={index}
 				width={1266}
 				height={2400}

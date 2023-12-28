@@ -25,7 +25,8 @@ const Home: FC = () => {
 					<p>
 						I enjoy creating beautiful interfaces, building tools and crafting polished user
 						interactions that not only delight users but also effectively solve problems. In
-						addition to design and technology, I love basketball, running and lifting weights.
+						addition to design and technology, I love staying active through basketball and lifting
+						weights, enjoying live music, and exploring new places.
 					</p>
 					<svg
 						aria-hidden='true'
