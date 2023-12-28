@@ -1,5 +1,3 @@
-'use client';
-
 // import { format } from 'date-fns';
 import styles from '@css/blog.module.css';
 import { allPosts, Post } from 'contentlayer/generated';
