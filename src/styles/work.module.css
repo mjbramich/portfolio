@@ -20,7 +20,7 @@
 .section {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 75px;
+	margin-top: 50px;
 	width: 700px;
 }
 
