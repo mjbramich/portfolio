@@ -7,19 +7,19 @@ import blurDataURL from '@lib/blurDataUrl';
 
 const images = [
 	{
-		alt: 'Two rusty red bridges lined evenly on top of a large river',
+		alt: 'Selfie of myself in front of the London eye',
 		color: blurDataURL(131, 140, 155)
 	},
 	{
-		alt: 'A wall and a pillar with intricate designs and carvings',
+		alt: 'Riding a motorcycle along the scenic roads of Greece, enjoying the breathtaking landscapes.',
 		color: blurDataURL(154, 207, 229)
 	},
 	{
-		alt: 'A very large tower with a skydeck',
+		alt: 'Up front at The strokes concert in Melbourne',
 		color: blurDataURL(18, 112, 159)
 	},
 	{
-		alt: 'A creek flowing through a forest on a sunny autumn day',
+		alt: 'Enjoying a Ice cream in the middle of the city',
 		color: blurDataURL(112, 126, 137)
 	}
 ];
