@@ -27,7 +27,7 @@ const projects: Projects[] = [
 			sml: '/photos/projects/kangasSmallMockup.png',
 			lrg: '/photos/projects/kangasMockup.png'
 		},
-		desc: 'A site for a local property maintenance business to showcase their work and do some other stufs',
+		desc: 'Designed and developed a website for a local property maintenance business, providing an effective platform to showcase their portfolio of work.',
 		links: {
 			source: 'https://kangas.au',
 			github: 'https://github.com/mjbramich/kangas'
@@ -40,7 +40,7 @@ const projects: Projects[] = [
 			sml: '/photos/projects/playmakerVintage.png',
 			lrg: '/photos/projects/playmakerVintage.png'
 		},
-		desc: 'A ecommerce allowing the owner to showcase their collection of vintage clothes',
+		desc: 'An upcoming ecommerce store, built with Next.js  and featuring seamless Stripe integration. This ensures a secure and efficient transaction process for users, adding a layer of convenience to their shopping experience. ',
 		links: {
 			source: 'https://kangas.au',
 			github: 'https://github.com/mjbramich/kangas'
@@ -53,23 +53,10 @@ const projects: Projects[] = [
 			sml: '/photos/projects/kandooSmallMockup.png',
 			lrg: '/photos/projects/kandooMockup.png'
 		},
-		desc: 'A site for a local property maintenance business to showcase their work',
+		desc: 'A fullstack web app for project organization that allows seamless collabortaion between teams, with a  focus on enhancing productivity, kandoo ensures that every team member can better focus on the task at hand.',
 		links: {
-			source: 'https://kangas.au',
-			github: 'https://github.com/mjbramich/kangas'
-		},
-		color: blurDataURL(18, 112, 159)
-	},
-	{
-		title: "Kanga's ",
-		imgSrc: {
-			sml: '/photos/projects/kangasSmallMockup.png',
-			lrg: '/photos/projects/kangasMockup.png'
-		},
-		desc: 'A site for a local property maintenance business to showcase their work',
-		links: {
-			source: 'https://kangas.au',
-			github: 'https://github.com/mjbramich/kangas'
+			source: 'https://kandoo.onrender.com/',
+			github: 'https://github.com/mjbramich/kandoo'
 		},
 		color: blurDataURL(18, 112, 159)
 	}
