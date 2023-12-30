@@ -25,8 +25,8 @@ const Blog = () => (
 	<div className={styles.container}>
 		<div className={styles.writing}>
 			<div>
-				<h1>Blog</h1>
-				<p>Learning things, and then teaching others.</p>
+				<h1>Writing</h1>
+				<p>Learning things, and then trying (lol) my best to teach others.</p>
 			</div>
 		</div>
 		<Posts />
