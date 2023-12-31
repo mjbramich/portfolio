@@ -3,7 +3,8 @@ import { allPosts } from 'contentlayer/generated';
 import { notFound } from 'next/navigation';
 
 // Generates all pages at build time
-export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post.slug }));
+export const generateStaticParams = async () =>
+	allPosts.map((post) => ({ slug: post.slug.substring(6) }));
 
 // Generates metadata for a post based on the given slug.
 export const generateMetadata = ({ params }: { params: { slug: string } }) => {

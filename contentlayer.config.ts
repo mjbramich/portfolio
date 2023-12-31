@@ -25,7 +25,7 @@ const options = {
 	theme: 'monokai'
 };
 export default makeSource({
-	contentDirPath: 'content/posts',
+	contentDirPath: 'content',
 	documentTypes: [Post],
 	mdx: {
 		rehypePlugins: [[rehypePrettyCode, options]]
