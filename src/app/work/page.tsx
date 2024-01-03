@@ -1,10 +1,12 @@
 import { Layout } from '@components/Layout';
 import type { NextPage } from 'next';
-import About from '@/components/Work';
+import Work from '@/components/Work';
+
+export const metadata = { title: 'Work' };
 
 const Page: NextPage = () => (
 	<Layout>
-		<About />
+		<Work />
 	</Layout>
 );
 
