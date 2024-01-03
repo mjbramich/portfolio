@@ -24,7 +24,7 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
 			description,
 			type: 'article',
 			publishedTime,
-			url: `https://mjbramich.dev/blog/${slug}`,
+			url: `https://mjbramich.dev${slug}`,
 			image: 'https://mjbramich.dev/og.png'
 		},
 		twitter: {
