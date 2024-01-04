@@ -42,8 +42,8 @@ const projects: Projects[] = [
 		},
 		desc: 'An upcoming ecommerce store, built with Next.js  and featuring seamless Stripe integration. This ensures a secure and efficient transaction process for users, adding a layer of convenience to their shopping experience. ',
 		links: {
-			source: 'https://kangas.au',
-			github: 'https://github.com/mjbramich/kangas'
+			// source: 'https://kangas.au',
+			github: 'https://github.com/mjbramich'
 		},
 		color: blurDataURL(154, 207, 229)
 	},
@@ -53,7 +53,7 @@ const projects: Projects[] = [
 			sml: '/photos/projects/kandooSmallMockup.png',
 			lrg: '/photos/projects/kandooMockup.png'
 		},
-		desc: 'A fullstack web app for project organization that allows seamless collabortaion between teams, with a  focus on enhancing productivity, kandoo ensures that every team member can better focus on the task at hand.',
+		desc: 'A fullstack web app for project organization that allows seamless collabortaion between teams, with a focus on enhancing productivity, kandoo ensures that every team member can better focus on the task at hand.',
 		links: {
 			source: 'https://kandoo.onrender.com/',
 			github: 'https://github.com/mjbramich/kandoo'

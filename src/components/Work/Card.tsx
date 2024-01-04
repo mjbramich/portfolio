@@ -3,7 +3,7 @@ import styles from '@css/work.module.css';
 import Image from 'next/image';
 
 type Link = {
-	source: string;
+	source?: string;
 	github: string;
 };
 
@@ -24,12 +24,17 @@ const Card = ({ title, desc, imgSrc, links, color }: Projects) => (
 			<div className={styles.heading}>
 				<h3>{title}</h3>
 				<div className={styles.links}>
-					<a href={links.source} target='_blank' rel='noreferrer' aria-label='Source Link'>
-						<FiArrowUpRight size={24} />
-					</a>
-					<a href={links.github} target='_blank' rel='noreferrer' aria-label='Source Link'>
-						<FiGithub size={24} />
-					</a>
+					{links.source && (
+						<a href={links.source} target='_blank' rel='noreferrer' aria-label='Source Link'>
+							<FiArrowUpRight size={24} />
+						</a>
+					)}
+
+					{links.github && (
+						<a href={links.github} target='_blank' rel='noreferrer' aria-label='Source Link'>
+							<FiGithub size={24} />
+						</a>
+					)}
 				</div>
 			</div>
 			<p>{desc}</p>
