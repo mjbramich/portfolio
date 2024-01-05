@@ -22,9 +22,15 @@ const items: Items = {
 
 const Nav: FC = () => {
 	let pathname = usePathname() || '/';
-	if (pathname.includes('/blog/')) pathname = '/blog';
-	else if (pathname === '/404' || pathname === '/_not-found' || pathname !== 'about')
+
+	// Define the paths to check
+	const validPaths = ['/blog', '/work'];
+
+	if (pathname.includes('/blog')) {
+		pathname = '/blog';
+	} else if (!validPaths.includes(pathname)) {
 		pathname = '/';
+	}
 
 	return (
 		<nav className={styles.nav}>
