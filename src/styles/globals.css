@@ -39,6 +39,12 @@ body {
 	background-color: var(--gray9);
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 h1,
 h2,
 h3,
@@ -84,10 +90,6 @@ a:not(a.exclude) {
 
 a:not(a.exclude):hover {
 	text-decoration-color: var(--gray5);
-}
-
-body {
-	min-height: 100vh;
 }
 
 ::selection {
