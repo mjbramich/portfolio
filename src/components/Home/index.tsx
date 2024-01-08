@@ -14,7 +14,7 @@ const Home: FC = () => {
 		<div className={styles.wrapper}>
 			<div className={styles.home_container}>
 				<div className={styles.info}>
-					<h1>Matthew Bramich — Fullstack Developer </h1>
+					<h1>Matthew Bramich — Software Engineer </h1>
 					{/* <div className={styles.headshot}>
 							<Image src='/photos/@mjbramich/selfie.jpg' alt='My face' fill />
 						</div> */}
