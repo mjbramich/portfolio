@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL('https://localhost:3000'),
+	metadataBase: new URL('https://mjbramich.dev'),
 	title: { default: 'Matthew Bramich', template: '%s — Matthew Bramich' },
 	creator: 'Matthew Bramich',
 	publisher: 'Matthew Bramich',
