@@ -1,8 +1,9 @@
+import { MetadataRoute } from 'next';
 import { allPosts } from 'contentlayer/generated';
 
 const baseURL = 'https://mjbramich.dev';
 
-const Sitemap = () => {
+const sitemap = (): MetadataRoute.Sitemap => {
 	const posts = allPosts.map((post) => ({
 		url: `${baseURL}${post.slug}`,
 		lastModified: post.published
@@ -16,4 +17,4 @@ const Sitemap = () => {
 	return [...routes, ...posts];
 };
 
-export default Sitemap;
+export default sitemap;
