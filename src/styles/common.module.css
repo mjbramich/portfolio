@@ -9,6 +9,16 @@
 .blog {
 	/* margin: 0 auto; */
 	width: var(--wrapper);
+	animation: fadeIn 1250ms both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .blog {
