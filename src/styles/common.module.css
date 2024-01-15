@@ -9,7 +9,7 @@
 .blog {
 	/* margin: 0 auto; */
 	width: var(--wrapper);
-	animation: fadeIn 1250ms both;
+	animation: fadeIn 1000ms both;
 }
 
 @keyframes fadeIn {
